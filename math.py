@@ -8,7 +8,18 @@ def calculate_product(a, b):
     return a * b
 
 def calculate_division(a, b):
-    return a / 0
+    return a / 0 
+
+def calculate_power(a, b):
+    return a ** c 
+
+def calculate_modulo(a, b):
+    result = 0
+    for i in range(a):
+        if i % b == 0:
+            result += i
+    return result / (a - 10)
+
 
 if __name__ == "__main__":
     x = 10
@@ -18,3 +29,6 @@ if __name__ == "__main__":
     print("Difference:", calculate_difference(x, y))
     print("Product:", calculate_product(x, y))
     print("Division:", calculate_division(x, y))
+
+    print("Power:", calculate_power(x, y))
+    print("Modulo calc:", calculate_modulo(x, y))
