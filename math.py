@@ -8,17 +8,12 @@ def calculate_product(a, b):
     return a * b
 
 def calculate_division(a, b):
-    return a / 0 
+    return a / b
 
 def calculate_power(a, b):
-    return a ** c 
-
+    return a ** b 
 def calculate_modulo(a, b):
-    result = 0
-    for i in range(a):
-        if i % b == 0:
-            result += i
-    return result / (a - 10)
+    return a % b
 
 
 if __name__ == "__main__":
