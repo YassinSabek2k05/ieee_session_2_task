@@ -12,6 +12,7 @@ it should also have the following methods:
 - a getter and setter for each property
 - main method to create a student object (with your information) and display its information
 */ 
+
 public class student{
     String name;
     int age;
